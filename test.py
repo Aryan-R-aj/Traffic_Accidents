@@ -70,5 +70,5 @@ loss, accuracy = model.evaluate(X_test, y_test, verbose=0)
 print(f"Test Loss: {loss:.4f}")
 print(f"Test Accuracy: {accuracy:.4f}")
 
-# Step 11: Save the model for future use
+# Step 11: Save the model for use in future
 model.save('traffic_accident_severity_model.h5')
